@@ -1,0 +1,58 @@
+body, h1, h2, h3, h4, p, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+body {
+background-color: lightgrey;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 20px 20px 20px 150px;
+    font-weight: 500;
+}
+
+.underline {
+    border-bottom: 2px black solid;
+    margin: 0 3000px 0 150px;
+    padding: 0 20px 0 50px;
+}
+
+.inStock {
+    margin: 20px 150px 20px 150px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: darkgrey 1px 1px 5px;
+    border-radius: 3px;
+}
+
+.inStock div {
+    width: 30%;
+    display: inline-block;
+}
+
+.tButton {
+    margin: 20px 1100px 20px 150px;
+    padding: 10px;
+    width: fit-content;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+.darkMode{
+    background-color: #222;
+    color: white;
+}
+
+.darkMode .underline {
+    border-color: white;
+}
+
+.darkMode .inStock {
+    background-color: #444;
+}
